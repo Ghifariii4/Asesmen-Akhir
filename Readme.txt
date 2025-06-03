@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Pendidikan Agama Islam
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Cardo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: PhotoFolio
+  * Template URL: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="services-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <!-- <i class="bi bi-camera"></i> -->
+        <h1 class="sitename"></h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Beranda<br></a></li>
+          <li><a href="about.html">Tentang</a></li>
+          <li class="dropdown"><a href="gallery.html"><span>Artikel</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="gallery.html">Sulawesi Selatan</a></li>
+              <li><a href="gallery.html">Sulawesi Tenggara</a></li>
+              <li><a href="gallery.html">Museum Pusaka</a></li>
+              <li class="dropdown"><a href="#"><span>LKPD</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">IPAS</a></li>
+                  <li><a href="#">Matematika</a></li>
+                  <li><a href="#">Muatan Lokal</a></li>
+                  <li><a href="#">Poster</a></li>
+                  <li><a href="#">PAI</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="services.html">Layanan</a></li>
+          <li><a href="contact.html">Kontak</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>Pendidikan Agama Islam
+              <p class="mb-0">Berikut adalah hasil observasi kami saat kunjungan di TMII.
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Beranda</a></li>
+            <li class="current">Pendidikan Agama Islam
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <section id="artikel" class="artikel-section py-5" >
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row justify-content-center">
+      <div class="col-lg-10 text-center">
+        <!-- Gambar utama -->
+        <a href="assets/img/PAI-tongkonan.png" class="glightbox">
+            <div class="position-relative overflow-hidden rounded shadow-sm image-hover-wrapper">
+                <img src="assets/img/PAI-tongkonan.png" class="img-fluid w-100" alt="Anjungan Sulawesi Selatan" style="transition: 0.4s ease;">
+                <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-50 d-flex align-items-center justify-content-center hover-overlay">
+                <i class="bi fs-2 text-white">Rumah Tongkonan - Selawesi Selatan</i>
+                </div>
+            </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Tempat Artikel -->
+    <div class="row justify-content-center mt-4 " >
+  <div class="col-lg-10">
+    <article>
+      <h2 class="mb-3 " data-aos="fade-up" data-aos-delay="100">Anjungan Sulawesi Selatan</h2>
+      <p  class="" data-aos="fade-up" data-aos-delay="100"><strong>Salama engka!</strong></p>
+
+      <p class="" data-aos="fade-up" data-aos-delay="100">
+        Sulawesi Selatan, provinsi yang dikenal dengan kuliner lezat seperti Pisang Epe, Es Pisang Ijo, Barongko, Coto Makassar, Sop Konro, Ikan Bakar Parape, dan Songkolo Bagadang, menyajikan pengalaman budaya yang tak tertandingi di tempat lain.
+      </p>
+
+      <p class="" data-aos="fade-up" data-aos-delay="100">
+        Provinsi ini dihuni oleh berbagai suku, seperti Bugis, Makassar, dan Toraja, dengan luas wilayah sekitar 82.768 km². Suku Bugis dan Makassar umumnya tinggal di pesisir pantai selatan, timur, dan barat. Sementara itu, suku Toraja menetap di dataran tinggi dengan ketinggian 700–1.200 meter di atas permukaan laut.
+      </p>
+
+      <p class="" data-aos="fade-up" data-aos-delay="100">
+        Anjungan Sulawesi Selatan di Taman Mini Indonesia Indah (TMII) menampilkan tiga rumah adat utama: Rumah Tongkonan dari suku Toraja, Rumah Balla Lompoa dari suku Makassar, dan Rumah Bola atau Souraja dari suku Bugis.
+      </p>
+
+      <p class="" data-aos="fade-up" data-aos-delay="100">
+        Di kawasan Bugis-Makassar, rumah bangsawan memiliki detail yang berbeda dibandingkan rumah rakyat biasa. Di dalam rumah, terdapat <em>Rakkeang</em> (dalam bahasa Bugis) atau <em>Pammakkang</em> (Makassar) yang digunakan untuk menyimpan benda pusaka, padi, dan persediaan makanan lainnya. Selain itu, ada <em>Kale Balla</em> yang terdiri atas ruang tamu, ruang tidur, dan ruang makan. Di bagian bawah rumah terdapat <em>Awasao</em> atau <em>Passiringan</em>, yang berfungsi sebagai kandang ternak dan tempat penyimpanan alat-alat pertanian.
+      </p>
+
+      <p class="" data-aos="fade-up" data-aos-delay="100">
+        Selagi berada di anjungan ini, pengunjung juga dapat menjelajahi kekayaan budaya Sulawesi Selatan melalui peragaan hasil perburuan, hasil hutan, kerajinan anyaman, serta busana tradisional dari masing-masing suku.
+      </p>
+
+      <p class="" data-aos="fade-up" data-aos-delay="100">
+        Rumah adat Toraja biasanya menghadap ke utara, dengan atap khas berbentuk perahu <em>wangka</em> (Bugis) dan dihiasi ukiran-ukiran warna merah, putih, kuning, dan hitam. Di bagian depan rumah, deretan tanduk kerbau menunjukkan jumlah upacara adat pemakaman yang telah dilangsungkan oleh pemilik rumah.
+      </p>
+
+      <p class="" data-aos="fade-up" data-aos-delay="100">
+        Suku Toraja dikenal dengan tradisi pemakaman yang megah dan bahkan lebih mahal daripada upacara pernikahan. Ornamen di depan rumah menjadi simbol status sosial pemiliknya. Tiga pasang kepala kerbau (<em>Kabonga</em>) menandakan kebangsawanan, sedangkan deretan lumbung padi berukir (<em>alang</em>) mencerminkan tingkat kekayaan keluarga tersebut.
+      </p>
+
+      <p class="" data-aos="fade-up" data-aos-delay="100">
+        <strong>
+            TAHUKAH KAMU?
+        </strong>
+      </p>
+
+      <P class="" data-aos="fade-up" data-aos-delay="100">
+        Dalam pandangan orang Toraja, kerbau, khususnya tedong bonga, dianggap sebagai makhluk magis. Sang kerbau dihormati sebagai kendaraan roh di perjalanan akhirat, sehingga perannya sebagai kurban upacara pemakaman menjadi tak ternilai. Pada upacara pemakaman khusus untuk bangsawan, tak jarang, kerbau dan babi yang dipotong mencapai ratusan ekor.
+      </P>
+    </article>
+  </div>
+</div>
+  </div>
+</section>
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">PhotoFolio</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="line"></div>
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
