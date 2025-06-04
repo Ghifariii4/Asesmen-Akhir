@@ -248,14 +248,14 @@
         }
       });
 
+      const responseData = await response.json();
       loading.style.display = 'none';
 
       if (response.ok) {
         sentMessage.style.display = 'block';
         form.reset();
       } else {
-        const data = await response.json();
-        errorMessage.textContent = data.error || 'Form submission failed!';
+        errorMessage.textContent = responseData.error || 'Form submission failed!';
         errorMessage.style.display = 'block';
       }
     } catch (error) {
