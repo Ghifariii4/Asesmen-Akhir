@@ -173,6 +173,7 @@
 
     <div class="col-md-12 text-center">
       <div class="loading">Loading</div>
+
       <div class="sent-message">Your message has been sent. Thank you!</div>
 
       <button type="submit">Send Message</button>
@@ -248,14 +249,14 @@
         }
       });
 
-      const responseData = await response.json();
       loading.style.display = 'none';
 
       if (response.ok) {
         sentMessage.style.display = 'block';
         form.reset();
       } else {
-        errorMessage.textContent = responseData.error || 'Form submission failed!';
+        const data = await response.json();
+        errorMessage.textContent = data.error || 'Form submission failed!';
         errorMessage.style.display = 'block';
       }
     } catch (error) {
