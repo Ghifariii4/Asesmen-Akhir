@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Kelompok 1</title>
+  <title>Beranda</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -43,27 +43,22 @@
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html" class="active">Beranda<br></a></li>
-          <li><a href="about.html">Tentang</a></li>
-          <li class="dropdown"><a href="#"><span>Artikel</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li><a href="sulawesi-selatan.html">Sulawesi Selatan</a></li>
+          <li><a href="sulawesi-tenggara.html">Sulawesi Tenggara</a></li>
+          <li><a href="museum-pusaka.html">Museum Pusaka</a></li>
+          <li class="dropdown"><a href="#"><span>Proyek Mapel</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="sulawesi-selatan.html">Sulawesi Selatan</a></li>
-              <li><a href="sulawesi-tenggara.html">Sulawesi Tenggara</a></li>
-              <li><a href="museum-pusaka.html">Museum Pusaka</a></li>
-              <li class="dropdown"><a href="#"><span>LKPD</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="IPAS.html">IPAS</a></li>
-                  <!-- <li><a href="Matematika.html">Matematika</a></li>
-                  <li><a href="mulok.html">Muatan Lokal</a></li> -->
-                  <li><a href="poster.html">Poster</a></li>
-                  <li><a href="PAI.html">PAI</a></li>
-                  <li><a href="PJOK.html">PJOK</a></li>
-                  <li><a href="Seni-Musik.html">Seni Musik</a></li>
-                  <li><a href="Sejarah.html">Sejarah</a></li>
-                  <li><a href="Informatika.html">Informatika</a></li>
-                </ul>
-              </li>
+              <li><a href="IPAS.html">IPAS</a></li>
+              <li><a href="Matematika.html">Matematika</a></li>
+              <li><a href="mulok.html">Muatan Lokal</a></li>
+              <li><a href="poster.html">Bahasa Inggris & PPKN</a></li>
+              <li><a href="PAI.html">PAI</a></li>
+              <li><a href="PJOK.html">PJOK</a></li>
+              <li><a href="Seni-Musik.html">Seni Musik</a></li>
+              <li><a href="Sejarah.html">Sejarah</a></li>
             </ul>
           </li>
+          <li><a href="about.html">Tentang Kami</a></li>
           <li><a href="contact.html">Kontak</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -81,21 +76,34 @@
 
   <main class="main">
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section p-0 m-0 position-relative">
-  <video autoplay muted loop playsinline class="w-100 h-auto">
-    <source src="assets/vid/0528.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-
-  <div class="overlay position-absolute top-0 start-0 w-100 h-100"></div>
-
-  <div class="position-absolute top-50 start-50 translate-middle text-center text-white">
-    <h1 class="display-4 fw-bold">Selamat Datang</h1>
-    <p class="lead">Jelajahi lebih jauh tentang berbagai informasi anjungan di TMII</p>
-    <a href="#article" class="btn btn-tmii-yellow mt-3">Lihat Selengkapnya</a>
+  <!-- Hero Section -->
+<!-- Hero Section -->
+<section id="hero" class="hero section p-0 m-0 position-relative">
+  <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/img/anjungan-sulsel.png" class="d-block w-100" alt="Hero 1">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/anjungan-sultra.png" class="d-block w-100" alt="Hero 2">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/museum-pusaka.png" class="d-block w-100" alt="Hero 3">
+    </div>
   </div>
-</section><!-- /Hero Section -->
+
+    <!-- Overlay -->
+    <div class="overlay position-absolute top-0 start-0 w-100 h-100" style="background: rgba(0,0,0,0.5); z-index: 1;"></div>
+
+    <!-- Teks di Tengah -->
+    <div class="position-absolute top-50 start-50 translate-middle text-center text-white" style="z-index: 2;">
+      <h1 class="display-4 fw-bold">Selamat Datang</h1>
+      <p class="lead">Menjelajahi Keberagaman Budaya Sulawesi Selatan, Sulawesi Tenggara, dan Museum Pusaka</p>
+      <a href="#article" class="btn btn-tmii-yellow mt-3">Lihat Selengkapnya</a>
+    </div>
+  </div>
+</section>
+<!-- /Hero Section -->
 
   <!-- Article Section1 -->
 <section id="article" class="article section py-5">
@@ -163,40 +171,43 @@
 
     <div class="row g-4">
       <!-- Card 1 -->
-      <div class="col-md-4">
-        <div class="card h-100 shadow-sm border-0 hover-shadow bg-warning custom-card">
-          <img src="assets/img/anjungan-sulsel.png" class="card-img-top rounded-bottom" alt="Anjungan Sulawesi Selatan">
-          <div class="card-body text-center">
-            <h3 class="card-title fw-bold">Sulawesi Selatan</h3>
-            <p class="card-text">Anjungan Sulawesi Selatan di TMII dikenal dengan kekayaan seni dan filosofi hidup yang tertuang dalam setiap detail budayanya — mulai dari rumah adat, makanan khas, hngga adat istiadat yang dijaga turun-temurun.</p>
-            <a href="sulawesi-selatan.html" class="btn btn-outline-dark">Lihat Artikel</a>
-          </div>
-        </div>
-      </div>
+<div class="col-md-4">
+  <div class="card h-100 shadow-sm border-0 hover-shadow bg-warning custom-card">
+    <img src="assets/img/anjungan-sulsel.png" class="card-img-top rounded-bottom" alt="Anjungan Sulawesi Selatan">
+    <div class="card-body d-flex flex-column text-center">
+      <h3 class="card-title fw-bold text-start">Sulawesi Selatan</h3>
+      <p class="card-text text-start">Sulawesi Selatan dikenal dengan keragaman budaya suku Bugis, Makassar, dan Toraja, serta tradisi arsitektur dan adat istiadat yang kuat. Provinsi ini juga memiliki sejarah maritim yang kaya dan warisan budaya yang masih lestari.</p>
+      <a href="sulawesi-selatan.html" class="btn btn-outline-dark mt-auto">Lihat Selengkapnya</a>
+    </div>
+  </div>
+</div>
 
-      <!-- Card 2 -->
-      <div class="col-md-4">
-        <div class="card h-100 shadow-sm border-0 hover-shadow bg-warning custom-card">
-          <img src="assets/img/anjungan-sultra.png" class="card-img-top rounded-bottom" alt="Anjungan Sulawesi Tenggara">
-          <div class="card-body text-center">
-            <h3 class="card-title fw-bold">Sulawesi Tenggara</h3>
-            <p class="card-text">Anjungan Sulawesi Tenggara di TMII memiliki keunikan dalam keberagaman bahasa dan ritus tradisi serta menampilkan bagaimana budaya budaya unik lainnya. </p>
-            <a href="sulawesi-tenggara.html" class="btn btn-outline-dark">Lihat Artikel</a>
-          </div>
-        </div>
-      </div>
+<!-- Card 2 -->
+<div class="col-md-4">
+  <div class="card h-100 shadow-sm border-0 hover-shadow bg-warning custom-card">
+    <img src="assets/img/anjungan-sultra.png" class="card-img-top rounded-bottom" alt="Anjungan Sulawesi Tenggara">
+    <div class="card-body d-flex flex-column text-center">
+      <h3 class="card-title fw-bold text-start">Sulawesi Tenggara</h3>
+      <p class="card-text text-start">Sulawesi Tenggara kaya akan budaya suku Tolaki, Buton, dan Muna, dengan tradisi, rumah adat, dan sejarah maritim yang masih dijaga hingga kini. Provinsi ini juga dikenal dengan pesona alam dan keragaman bahasanya.</p>
+      <a href="sulawesi-tenggara.html" class="btn btn-outline-dark mt-auto">Lihat Selengkapnya</a>
+    </div>
+  </div>
+</div>
 
-      <!-- Card 3 -->
-      <div class="col-md-4">
-        <div class="card h-100 shadow-sm border-0 hover-shadow bg-warning custom-card">
-          <img src="./assets/img/museum-pusaka.png" class="card-img-top" alt="Layanan Pengunjung">
-          <div class="card-body text-center">
-            <h3 class="card-title fw-bold">Museum Pusaka</h3>
-            <p class="card-text ">Lihat berbagai koleksi benda-benda pusaka peninggalan sejak zaman kerajaan di indonesia.</p>
-            <a href="museum-pusaka.html" class="btn btn-outline-dark ">Lihat Artikel</a>
-          </div>
-        </div>
-      </div>
+<!-- Card 3 -->
+<div class="col-md-4">
+  <div class="card h-100 shadow-sm border-0 hover-shadow bg-warning custom-card">
+    <img src="./assets/img/museum-pusaka.png" class="card-img-top" alt="Layanan Pengunjung">
+    <div class="card-body d-flex flex-column text-center">
+      <h3 class="card-title fw-bold text-start">Museum Pusaka</h3>
+      <p class="card-text text-start">Museum Pusaka TMII menyimpan koleksi benda pusaka dan artefak bersejarah dari seluruh Indonesia, menggambarkan kekayaan budaya dan sejarah bangsa.</p>
+      <a href="museum-pusaka.html" class="btn btn-outline-dark mt-auto">Lihat Selengkapnya</a>
+    </div>
+  </div>
+</div>
+
+
+
     </div>
   </div>
 </section>
